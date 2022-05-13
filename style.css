@@ -1,0 +1,121 @@
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+}
+.nav-link {
+	color: #fff;
+}
+.navbar-brand {
+    color: #fff;
+}
+.navbar-brand:hover {
+    color: #fff;
+}
+#jumbotron {
+    background-color: #343a40;
+	padding-right: 0px!important; 
+    padding-left: 0px!important;
+}
+
+#download:hover {
+    color: #fff!important;
+    background-color: #157347;
+}
+
+#link {
+    border: 0;
+}
+
+#clear {
+    background-color: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 0px;
+    border: 0;
+    box-shadow: none!important;
+    outline: none!important;
+    cursor: auto;	
+}
+
+.badgecursor{
+	cursor: pointer!important;
+}
+
+#past {
+    background-color: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 0px;
+    border: 0;
+    box-shadow: none!important;
+    outline: none!important;
+	cursor: auto;
+}
+
+#cover {
+    height: 336px;
+    width: 189px;
+}
+
+#avatar {
+    height: 140px;
+    width: 140px;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+.dropstart .dropdown-menu[data-bs-popper] {
+    top: 100%;
+	right: 50%;
+}
+@media (max-width: 576px) {
+    #download {
+        display: grid;
+        border-radius: 0.25rem;
+        width: 100%;
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    #clear {
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+    }
+    #past {
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+    }	
+    .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {}
+    .input-group-lg>.btn,
+    .input-group-lg>.form-control,
+    .input-group-lg>.form-select,
+    .input-group-lg>.input-group-text {
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+    }
+    table {
+        border-collapse: separate;
+    }
+    .btn-group-lg>.btn,
+    .btn-lg {
+        padding: 0.25rem 0.25rem;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+    }
+    #link {
+        padding: 0.25rem 0.25rem;
+        font-size: 1rem;
+    }
+    #cover {
+        height: 244px;
+        width: 137px;
+    }
+    #avatar {
+        height: 70%;
+        width: 70%;
+    }
+    .row {	
+        --bs-gutter-x: 0.5rem;
+    }
+}		
